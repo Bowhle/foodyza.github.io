@@ -11,137 +11,111 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
+    title: Welcome to Foodyza!
     text: It's Nice To Meet You
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Order your faves"
+    text: "Foodza makes it incredibly easy to satisfy your cravings.<br>
+Our platform is designed to connect you the best food trucks in your area, offering a seamless experience from browsing to ordering. <br> Here's how we help you get your favourite food, fast:"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Search by Foodtruck"
+        desc: "Find your go-to food truck in a snap!  Whether you know exactly who you're looking for, or you're in the mood for a specific vendor, Foodyza lets you quickly locate them by name.  See their location, menu, and more."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Search by Cuisine"
+        desc: "Craving a specific flavour? Foodyza’s cuisine search allows you to discover food trucks offering exactly what you want. From Chisa Nyama to Walkie Talkies to Inhloko, find the perfect meal to meet your taste."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "Search by Location"
+        desc: "Wherever you are, Foodyza helps you find the closest food trucks.  Whether you're at home, at work, or exploring a new area, quickly discover the delicious options around you.  Perfect for those spontaneous foodie moments!"
         icon: fab fa-markdown
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Foodza makes it incredibly easy to satisfy your cravings.
+Our platform is designed to connect you the best food trucks in your area, offering a seamless experience from browsing to ordering. Here's how we help you get your favourite food, fast:"
     section: portfolio
     closebutton: "Close Project"
 
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    timeline:
+    title: "Our Story"
+    text: "Here's how our journey began"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "The Idea Takes Root"
+        year: "2020"
+        desc: "Foodyza was conceptualised"
         image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        alt: "Conceptualising Foodyza"
+      - title: "Development Begins"
+        year: "2025"
+        desc: "The project was brought to life at ALX, in collaboration with Kgotso Mphuthi.  The focus was on creating a user-friendly platform that connects people with local food trucks." # Added more context
         image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        alt: "Foodyza Development"
+      - title: "Jekyll Theme Integration"
+        year: "2024"
+        desc: "The website is built using a Jekyll theme, providing a solid foundation for showcasing food trucks and connecting with users." 
         image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+        alt: "Jekyll Theme" 
+      - title: "Launch" 
+        year: "2024" 
+        desc: "Foodyza launches, connecting hungry customers with a diverse range of food trucks." 
         image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
+        alt: "Foodyza Launch"
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Join the Foodyza Community!"
 
   about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "About Foodyza"
+    text: "Our Story"
+    body: |
+      Foodyza is a passion project born from a simple idea: to make it easier for people to find and enjoy great food from local food trucks.
+
+      Originally conceptualised in 2020 by Samantha Mkwananzi during her UI studies at CarlArts, the project was brought to life during her studies at ALX, in collaboration with Kgotso Mphuthi.
+
+      Our web application is designed to connect users with the vibrant food truck scene in their area.  Whether you're a busy professional looking for a quick lunch, a student on a budget, or simply a foodie eager to explore new flavours, Foodyza is here to help.
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "Meet the Team"
+    text: "We're passionate about connecting you with great food."
+    subtext: "We're a dedicated team working to bring the best food truck experience to your fingertips."
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Samantha Mkwananzi"
+        role: "Founder & UI/UX Frontend Designer"
+        image: assets/img/team/1.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/samantha-m-b66b5153/
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+          - url: https://github.com/Bowhle
+            icon: "fab fa-github"
+      - name: "Kgotso Mphuthi"
+        role: "Co-founder & Backend Developer"
         image: assets/img/team/2.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: http://www.linkedin.com/in/kgotso-mphuthi-a1022bba
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          - url: https://github.com/SirMphuthi
+            icon: "fab fa-github"
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Get in Touch"
+    text: "Connect with us!  We'd love to hear from you."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
     email: "Email*"
-    email-validation: "Please enter your email address."
+    email-validation: "Please enter a valid email address."
     phone: "Phone Number"
     phone-validation: "Please enter your phone number."
     message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
+    message-validation: "Please enter your message."
+    subject: "Foodyza Contact Form Submission"
     submit: "Send Message"
 
   footer:
