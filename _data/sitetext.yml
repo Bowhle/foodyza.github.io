@@ -40,34 +40,34 @@ Our platform is designed to connect you the best food trucks in your area, offer
     closebutton: "Close Project"
 
     timeline:
-    title: "Our Story"
+    title: "Timeline"
     text: "Here's how our journey began"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "The Idea Takes Root"
-        year: "2020"
-        desc: "Foodyza was conceptualised"
-        image: assets/img/timeline/1.jpg
-        alt: "Conceptualising Foodyza"
-      - title: "Development Begins"
-        year: "2025"
-        desc: "The project was brought to life at ALX, in collaboration with Kgotso Mphuthi.  The focus was on creating a user-friendly platform that connects people with local food trucks." # Added more context
-        image: assets/img/timeline/2.jpg
-        alt: "Foodyza Development"
-      - title: "Jekyll Theme Integration"
-        year: "2024"
-        desc: "The website is built using a Jekyll theme, providing a solid foundation for showcasing food trucks and connecting with users." 
-        image: assets/img/timeline/3.jpg
-        alt: "Jekyll Theme" 
-      - title: "Launch" 
-        year: "2024" 
-        desc: "Foodyza launches, connecting hungry customers with a diverse range of food trucks." 
-        image: assets/img/timeline/4.jpg
-        alt: "Foodyza Launch"
-        align: right
-    end: "Join the Foodyza Community!"
+  - title: "The Idea Takes Root"
+    year: "2020"
+    desc: "A lightbulb moment sparked: a simple idea for a web application that connects foodies with local food trucks."
+    image: assets/img/timeline/1.jpg
+    alt: "Conceptualising Foodyza"
+  - title: "Initial Planning and Research"
+    year: "2025"
+    desc: "Foodyza project research phase: defined team roles, technical choices, problem statement, target users, locale, risks, development process, and market analysis."
+    image: assets/img/timeline/2.jpg"
+    alt: "Foodyza Development"
+  - title: "Foodyza MVP specification"
+    year: "2025"
+    desc: "We worked on the initial Foodyza MVP specification outlining system architecture, API routes for user, food truck, menu, order, payment, and location management, 3rd party API integrations (Google Maps, PayFast), data model considerations, user stories, and UI mockups."
+    image: assets/img/timeline/3.jpg
+    alt: "Jekyll Theme"
+  - title: "MVP built, Launched and presented"
+    year: "2025"
+    desc: "Week 2 MVP progress report: 7/10 progress, core features implemented, integration in progress, visual design and some functionality complete, significant technical challenges with dependency management and port issues, non-technical challenges with time management."
+    image: assets/img/timeline/4.jpg
+    alt: "Foodyza Launch"
+    align: right
+  end: "Join the Foodyza Community!"
 
   about:
     title: "About Foodyza"
