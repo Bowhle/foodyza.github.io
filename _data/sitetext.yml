@@ -24,66 +24,93 @@ Our platform is designed to connect you the best food trucks in your area, offer
     list:
       - title: "Search by Foodtruck"
         desc: "Find your go-to food truck in a snap!  Whether you know exactly who you're looking for, or you're in the mood for a specific vendor, Foodyza lets you quickly locate them by name.  See their location, menu, and more."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        icon: fa-solid fa-truck #find more at https://fontawesome.com/icons
       - title: "Search by Cuisine"
         desc: "Craving a specific flavour? Foodyza’s cuisine search allows you to discover food trucks offering exactly what you want. From Chisa Nyama to Walkie Talkies to Inhloko, find the perfect meal to meet your taste."
-        icon: fas fa-laptop
+        icon: fas fa-hamburger
       - title: "Search by Location"
         desc: "Wherever you are, Foodyza helps you find the closest food trucks.  Whether you're at home, at work, or exploring a new area, quickly discover the delicious options around you.  Perfect for those spontaneous foodie moments!"
         icon: fab fa-markdown
 
   portfolio:
     title: "Portfolio"
-    text: "Foodza makes it incredibly easy to satisfy your cravings.
-Our platform is designed to connect you the best food trucks in your area, offering a seamless experience from browsing to ordering. Here's how we help you get your favourite food, fast:"
+    text: >
+      Foodza makes it incredibly easy to satisfy your cravings.<br>
+      Our platform is designed to connect you the best food trucks in your
+      area, offering a seamless experience from browsing to ordering. Here's
+      how we help you get your favourite food, fast:
     section: portfolio
     closebutton: "Close Project"
 
-    timeline:
+  timeline:
     title: "Timeline"
     text: "Here's how our journey began"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-  - title: "The Idea Takes Root"
-    year: "2020"
-    desc: "A lightbulb moment sparked: a simple idea for a web application that connects foodies with local food trucks."
-    image: assets/img/timeline/1.jpg
-    alt: "Conceptualising Foodyza"
-  - title: "Initial Planning and Research"
-    year: "2025"
-    desc: "Foodyza project research phase: defined team roles, technical choices, problem statement, target users, locale, risks, development process, and market analysis."
-    image: assets/img/timeline/2.jpg"
-    alt: "Foodyza Development"
-  - title: "Foodyza MVP specification"
-    year: "2025"
-    desc: "We worked on the initial Foodyza MVP specification outlining system architecture, API routes for user, food truck, menu, order, payment, and location management, 3rd party API integrations (Google Maps, PayFast), data model considerations, user stories, and UI mockups."
-    image: assets/img/timeline/3.jpg
-    alt: "Jekyll Theme"
-  - title: "MVP built, Launched and presented"
-    year: "2025"
-    desc: "Week 2 MVP progress report: 7/10 progress, core features implemented, integration in progress, visual design and some functionality complete, significant technical challenges with dependency management and port issues, non-technical challenges with time management."
-    image: assets/img/timeline/4.jpg
-    alt: "Foodyza Launch"
-    align: right
-  end: "Join the Foodyza Community!"
+      - title: "The Idea Takes Root"
+        year: "2020"
+        desc: >
+          A lightbulb moment sparked: a simple idea for a web application
+          that connects foodies with local food trucks.
+        image: assets/img/timeline/1.jpg
+        alt: "Conceptualising Foodyza"
+      - title: "Initial Planning and Research"
+        year: "February 2025"
+        desc: >
+          Foodyza project research phase: defined team roles, technical
+          choices, problem statement, target users, locale, risks,
+          development process, and market analysis.
+        image: assets/img/timeline/2.jpg
+        alt: "Foodyza Development"
+      - title: "Foodyza MVP specification"
+        year: "March 2025"
+        desc: >
+          We worked on the initial Foodyza MVP specification outlining
+          system architecture, API routes for user, food truck, menu,
+          order, payment, and location management, 3rd party API
+          integrations (Google Maps, PayFast), data model
+          considerations, user stories, and UI mockups.
+        image: assets/img/timeline/3.jpg
+        alt: "Jekyll Theme"
+      - title: "MVP built, Launched and presented"
+        year: "March 2025"
+        desc: >
+          Week 2 MVP progress report: 7/10 progress, core features
+          implemented, integration in progress, visual design and some
+          functionality complete, significant technical challenges with
+          dependency management and port issues, non-technical
+          challenges with time management.
+        image: assets/img/timeline/4.jpg
+        alt: "Foodyza Launch"
+        align: right
+    end: "Join the Foodyza Community!"
 
   about:
     title: "About Foodyza"
     text: "Our Story"
-    body: |
-      Foodyza is a passion project born from a simple idea: to make it easier for people to find and enjoy great food from local food trucks.
+    body: >
+      Foodyza is a passion project born from a simple idea: to make it
+      easier for people to find and enjoy great food from local food
+      trucks.
 
-      Originally conceptualised in 2020 by Samantha Mkwananzi during her UI studies at CarlArts, the project was brought to life during her studies at ALX, in collaboration with Kgotso Mphuthi.
+      Originally conceptualised in 2020 by Samantha Mkwananzi during her
+      UI studies at CarlArts, the project was brought to life during her
+      studies at ALX, in collaboration with Kgotso Mphuthi.
 
-      Our web application is designed to connect users with the vibrant food truck scene in their area.  Whether you're a busy professional looking for a quick lunch, a student on a budget, or simply a foodie eager to explore new flavours, Foodyza is here to help.
+      Our web application is designed to connect users with the vibrant
+      food truck scene in their area.  Whether you're a busy professional
+      looking for a quick lunch, a student on a budget, or simply a
+      foodie eager to explore new flavours, Foodyza is here to help.
     section: about
 
   team:
     title: "Meet the Team"
     text: "We're passionate about connecting you with great food."
-    subtext: "We're a dedicated team working to bring the best food truck experience to your fingertips."
+    subtext: >
+      We're a dedicated team working to bring the best food truck
+      experience to your fingertips.
     section: team
     people:
       - name: "Samantha Mkwananzi"
@@ -132,13 +159,13 @@ Our platform is designed to connect you the best food trucks in your area, offer
       - url: https://instagram.com
         icon: "fab fa-instagram"
 en-US:
-  <<: *DEFAULT_EN
+  "<<": *DEFAULT_EN
 en-CA:
-  <<: *DEFAULT_EN
+  "<<": *DEFAULT_EN
 en-GB:
-  <<: *DEFAULT_EN
+  "<<": *DEFAULT_EN
 en-AU:
-  <<: *DEFAULT_EN
+  "<<": *DEFAULT_EN
 
 # Spanish
 # -------
@@ -155,13 +182,19 @@ es: &DEFAULT_ES
     section: servicios
     list:
       - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+          maxime quam architecto quo inventore harum ex magni, dicta
+          impedit.
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
       - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        desc: >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+          maxime quam architecto quo inventore harum ex magni, dicta
+          impedit.
         icon: fas fa-laptop
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
+        desc: Su descripción aquí, soporte completo de **Markdown**
         icon: fab fa-markdown
 
   portfolio:
@@ -179,22 +212,34 @@ es: &DEFAULT_ES
     events:
       - title: "Nuestro Humilde Comienzo"
         year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        desc: >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+          voluptatum eius sapiente, totam reiciendis temporibus qui
+          quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+          dolore laudantium consectetur!
         image: assets/img/timeline/1.jpg
         alt:
       - title: "Una Agencia nace"
         year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        desc: >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
+          voluptatum eius sapiente, totam reiciendis temporibus qui
+          quibusdam, recusandae sit vero unde, sed, incidunt et ea quo
+          dolore laudantium consectetur!
         image: assets/img/timeline/2.jpg
         alt:
       - title: "La plantilla Jekyll es creada"
         year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
+        desc: >
+          Ravi Riley convirtió Agency, una plantilla basada en Bootstrap,
+          en una plantilla de Jekyll. La plantilla Jekyll puede ser
+          instalada commo una gema de Ruby (Ruby gem) o remotamente. Para
+          más información, visite la documentación.
         image: assets/img/timeline/3.jpg
         alt: image alt text
       - title: "Título"
         year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
+        desc: Su descripción aquí, **Markdown** es soportado completamente.
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
@@ -204,13 +249,16 @@ es: &DEFAULT_ES
   about:
     title: "Sobre nosotros"
     text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
+      laboriosam veritatis, quos non quis ad perspiciatis, totam
+      corporis ea, alias ut unde. **Markdown** supported.
     section: nosotros
 
   clients:
     section: clientes
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: "" # "yes/no"
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
@@ -228,7 +276,10 @@ es: &DEFAULT_ES
   team:
     title: "NUESTRO INCREÍBLE EQUIPO"
     text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    subtext: >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
+      laboriosam veritatis, quos non quis ad perspiciatis, totam
+      corporis ea, alias ut unde. **Markdown** supported.
     section: equipo
     people:
       - name: "Kay Garland"
@@ -291,6 +342,6 @@ es: &DEFAULT_ES
       - url: https://instagram.com
         icon: "fab fa-instagram"
 es-ES:
-  <<: *DEFAULT_ES
+  "<<": *DEFAULT_ES
 es-CO:
-  <<: *DEFAULT_ES
+  "<<": *DEFAULT_ES
