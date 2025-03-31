@@ -1,15 +1,43 @@
-# [Agency Jekyll Theme](https://github.com/raviriley/agency-jekyll-theme) Starter Template
-[![RubyGems Downloads](https://img.shields.io/gem/dt/jekyll-agency.svg)](https://rubygems.org/gems/jekyll-agency)
-[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/raviriley/agency-jekyll-theme/blob/master/LICENSE.txt)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/raviriley)
+# Foodyza
+A web application designed to connect users with food trucks in their area. 
+Foodyza aims to make it easy for busy professionals to quickly find lunch options, for budget-conscious students to discover affordable meals and for everyone to explore the diverse culinary offerings of food trucks.
 
-This is the fastest and easiest way to get up and running on GitHub Pages.
-Simply generate your own repository by clicking the 
-[![template button](https://img.shields.io/badge/-Use%20this%20template-brightgreen)](https://github.com/raviriley/agency-jekyll-theme-starter/generate) button, 
-then replace the sample content with your own and configure for your needs.
+## User Stories
 
-If you want your website to be at `YOUR-USERNAME.github.io`, that's what you must name your repo. If you want it to be like this: `https://raviriley.github.io/agency-jekyll-theme-starter/`, them make sure the `baseurl` in `_config.yml` matches the name of your repo. You can also use a `CNAME` file and your own custom domain!
+* As a busy professional, I want to quickly find food trucks near my location so that I can buy lunch without wasting time walking to a distant mall.
+* As a budget-conscious student, I want to see food truck menus with prices clearly displayed so that I can find affordable meal options.
+* As a driver on the road, I want to filter food truck searches by cuisine type (e.g. "home-style cooked") so that I can find meals that suit my preferences.
+* As a food enthusiast, I want to be able to browse food truck menus with photos of the dishes so that I can discover new and exciting food options.
+* As a new user, I want to explore the app's features and browse food trucks without creating an account immediately so that I can get a feel for the app's value before committing my information.
 
-**If you enjoy this theme, please consider [supporting me](https://www.paypal.me/raviriley) to continue developing and maintaining it.**
+## Usage
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/raviriley)
+1.  Open the application in your web browser.
+2.  Use the search bar to find food trucks near you.
+3.  Browse menus and view details for individual food trucks.
+4.  (Future) Create an account to save your favourite food trucks and place orders.
+
+
+## Technology Stack
+
+* **Frontend:**
+    * Framework: React
+    * Languages: JavaScript
+    * Tools: npm
+* **Backend:**
+    * Language: Node.js
+    * Framework: Express.js
+* **Database:**
+    * Type: PostgreSQL
+
+## Features
+
+The application includes the following key features:
+
+* **Food Truck Finder:** Users can search for food trucks by name and view their location and menus.
+* **Cuisine Explorer:** Users can discover food trucks by cuisine type (e.g., burgers, tacos, pizza).
+* **User Login:** Users can log into their accounts to access personalised features.
+* **Ratings and Reviews:** Users can view ratings and reviews for food trucks and cuisines to help them make informed decisions.
+* **Shopping Cart:** Users can add food items from a food truck's menu to a shopping cart.
+* **Order Summary:** Users can review their order, including items, quantities, and total price, before placing it.
+* **Order and Delivery:** Users can place orders and track their delivery status.
